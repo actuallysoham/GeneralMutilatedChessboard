@@ -169,20 +169,20 @@ function Tile(){
 			if(solution[j][0][0]==solution[j][1][0]){
 				/* horizontal domino required */
 				if (solution[j][0][1]<solution[j][1][1]){
-					return "url('images/start-right.png')"
+					return "url('https://res.cloudinary.com/dl6m7txan/image/upload/v1609178550/GMC/start-right_s3dzu1.png')"
 				}
 				if (solution[j][0][1]>solution[j][1][1]){
-					return "url('images/start-left.png')"
+					return "url('https://res.cloudinary.com/dl6m7txan/image/upload/v1609178550/GMC/start-left_vcdqkh.png')"
 				}
 			}
 
 			if(solution[j][0][1]==solution[j][1][1]){
 				/* vertical domino required */
 				if (solution[j][0][0]<solution[j][1][0]){
-					return "url('images/start-down.png')"
+					return "url('https://res.cloudinary.com/dl6m7txan/image/upload/v1609178550/GMC/start-down_okzvng.png')"
 				}
 				if (solution[j][0][0]>solution[j][1][0]){
-					return "url('images/start-up.png')"
+					return "url('https://res.cloudinary.com/dl6m7txan/image/upload/v1609178550/GMC/start-up_wutpew.png')"
 				}
 			}
 
@@ -193,20 +193,20 @@ function Tile(){
 			if(solution[j][0][0]==solution[j][1][0]){
 				/* horizontal domino required */
 				if (solution[j][0][1]<solution[j][1][1]){
-					return "url('images/stop-left.png')"
+					return "url('https://res.cloudinary.com/dl6m7txan/image/upload/v1609178550/GMC/stop-left_sqotwv.png')"
 				}
 				if (solution[j][0][1]>solution[j][1][1]){
-					return "url('images/stop-right.png')"
+					return "url('https://res.cloudinary.com/dl6m7txan/image/upload/v1609178550/GMC/stop-right_jncqbs.png')"
 				}
 			}
 
 			if(solution[j][0][1]==solution[j][1][1]){
 				/* vertical domino required */
 				if (solution[j][0][0]<solution[j][1][0]){
-					return "url('images/stop-up.png')"
+					return "url('https://res.cloudinary.com/dl6m7txan/image/upload/v1609178550/GMC/stop-up_hdzcmn.png')"
 				}
 				if (solution[j][0][0]>solution[j][1][0]){
-					return "url('images/stop-down.png')"
+					return "url('https://res.cloudinary.com/dl6m7txan/image/upload/v1609178550/GMC/stop-down_cd94pr.png')"
 				}
 			}
 
